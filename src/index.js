@@ -21,7 +21,7 @@ const App=()=>{
      <input id="name" type="text"/>
      {/* in html we do style="background-color:red;color:white;"
         {telling it's a html element and { js object}}  */}
-     <button style={{backgroundColor:'red',color:'white'}}>{buttonText}</button> 
+     <button style={{backgroundColor:'red',color:'white'}}>{buttonText.text}</button> 
    
      {/* can refer javascript variables insted jsx like insted of giving submit directly u can define variable and refer using {} braces..
      used on button u can use this for various things like creating functions u can do {getButtonText()}  in similiar fashion ...u can have numbers,arrays in variable*/}
